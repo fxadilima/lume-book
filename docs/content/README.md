@@ -1,3 +1,11 @@
+---
+layout: post
+title: Membuat GitHub Pages
+description: README Untuk GitHub Pages Content
+author: FX. Adi Lima
+keywords: github-pages, membuat github-pages
+---
+
 # GitHub Pages
 
 Kode berikut ini tidak akan jalan kalau kita belum pernah membuat Pages dari dalam
