@@ -1,4 +1,4 @@
-# 📔 GitHub Pages
+# GitHub Pages
 
 Kode berikut ini tidak akan jalan kalau kita belum pernah membuat Pages dari dalam
 GitHub sendiri, karena branch 'gh-pages' itu tidak ada.
@@ -16,7 +16,4 @@ $ git push origin gh-pages  # commit the changes
 $ git checkout master       # return to the master branch
 
 ```
-
-Tapi dokumen inilah yang nantinya akn ditampilkan di halaman depan, karena dokumen ini kita
-simpan sebagai 'README.md', yang akan menjadi 'index.html' kita.
 
