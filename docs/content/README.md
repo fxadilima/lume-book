@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Membuat GitHub Pages
 description: README Untuk GitHub Pages Content
 author: FX. Adi Lima
