@@ -1,3 +1,7 @@
+---
+layout: layout.njk
+---
+
 # GitHub Pages
 
 Ini cara bekerja dengan GitHub Pages dari repository lokal.
@@ -14,5 +18,13 @@ $ git rebase master         # bring gh-pages up to date with master
 $ git push origin gh-pages  # commit the changes
 $ git checkout master       # return to the master branch
 
+```
+
+Dan ini contoh Typescript:
+
+```ts
+interface Props {
+    name: string;
+}
 ```
 

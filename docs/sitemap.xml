@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3000/README.html</loc>
+    <lastmod>2023-09-28T13:49:31.375Z</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:3000/content/gh-page.html</loc>
+    <lastmod>2023-09-28T13:49:31.275Z</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:3000/index.html</loc>
+    <lastmod>2023-09-28T14:37:00.952Z</lastmod>
+  </url>
+</urlset>

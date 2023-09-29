@@ -1,0 +1,9 @@
+metas:
+  site: Lume Book
+  twitter: "@xaverius2017"
+  icon: /images/book.png
+  lang: en
+  generator: true
+
+mergedKeys:
+  metas: object

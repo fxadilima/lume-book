@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title></title>
+  <link rel="icon" type="image/svg+xml" href="/book.svg">
+  <link rel="stylesheet" href="/styles/w3.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lume Book">
+<meta property="og:locale" content="en">
+<meta property="og:url" content="http://localhost:3000/README.html">
+<meta property="og:image" content="http://localhost:3000/images/book.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@xaverius2017">
+<meta itemprop="image" content="http://localhost:3000/images/book.png">
+<meta name="generator" content="Lume v1.19.0">
+</head>
+<body>
+    <main class="w3-main">
+        <div class="w3-container">
+        <h1>GitHub Pages</h1>
+<p>Ini cara bekerja dengan GitHub Pages dari repository lokal.</p>
+<pre><code class="language-bash hljs">
+$ git add .
+$ git status     <span class="hljs-comment"># to see what changes are going to be commited</span>
+$ git commit -m <span class="hljs-string">'Some descriptive commit message'</span>
+$ git push origin master
+
+$ git checkout gh-pages     <span class="hljs-comment"># go to the gh-pages branch</span>
+$ git rebase master         <span class="hljs-comment"># bring gh-pages up to date with master</span>
+$ git push origin gh-pages  <span class="hljs-comment"># commit the changes</span>
+$ git checkout master       <span class="hljs-comment"># return to the master branch</span>
+
+</code></pre>
+<p>Dan ini contoh Typescript:</p>
+<pre><code class="language-ts hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Props</span> {
+    <span class="hljs-attr">name</span>: <span class="hljs-built_in">string</span>;
+}
+</code></pre>
+        </div>
+    </main>
+
+
+</body></html>

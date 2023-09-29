@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head><meta property="og:type" content="website">
+<meta property="og:site_name" content="Lume Book">
+<meta property="og:locale" content="en">
+<meta property="og:url" content="http://localhost:3000/content/gh-page.html">
+<meta property="og:image" content="http://localhost:3000/images/book.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@xaverius2017">
+<meta itemprop="image" content="http://localhost:3000/images/book.png">
+<meta name="generator" content="Lume v1.19.0">
+</head><body><h1>GitHub Pages</h1>
+<p>Ini cara bekerja dengan GitHub Pages dari repository lokal.</p>
+<pre><code class="language-bash hljs">
+$ git add .
+$ git status     <span class="hljs-comment"># to see what changes are going to be commited</span>
+$ git commit -m <span class="hljs-string">'Some descriptive commit message'</span>
+$ git push origin master
+
+$ git checkout gh-pages     <span class="hljs-comment"># go to the gh-pages branch</span>
+$ git rebase master         <span class="hljs-comment"># bring gh-pages up to date with master</span>
+$ git push origin gh-pages  <span class="hljs-comment"># commit the changes</span>
+$ git checkout master       <span class="hljs-comment"># return to the master branch</span>
+
+</code></pre></body></html>
